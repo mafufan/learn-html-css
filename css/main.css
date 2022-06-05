@@ -1,3 +1,11 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
 .container {
   width: 800px;
   margin-left: auto;
@@ -53,26 +61,15 @@
   color: white;
 }
 
-.main-box {
-  background-color: #f2f2f2;
-  height: 200px;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -150px;
-  margin-left: auto;
-  margin-right: auto;
+.explain-box {
   width: 80%;
-}
-
-.box-title {
-  font-weight: 700;
-  margin-top: 30px;
-}
-
-.box-content {
-  margin: 20px 50px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
 }
 
 .blog-content {

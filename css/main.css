@@ -143,6 +143,43 @@ body {
   padding: 10px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  /* border: 1px solid black; */
+}
+
+.cell-long {
+  width: 700px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
 .header {
   width: 100%;
   height: 50px;
